@@ -1,0 +1,44 @@
+@font-face {
+  src: url(https://dl.dropboxusercontent.com/s/doefhih3e9re7ha/MPLUSRounded1c-Black.ttf?dl=0);
+  font-family: "M";
+  font-style: normal;
+  font-weight: 900;
+}
+
+* {
+  color: midnightblue;
+  text-align: center;
+  font-family: "M";
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  min-height: 100vh;
+}
+#xanh {
+  color: blue;
+}
+body {
+  background-color: rgb(176, 176, 235);
+}
+#image {
+  width: 600px;
+  height: 600px;
+}
+.social {
+  display: block;
+}
+.social:hover {
+  text-decoration: underline;
+}
